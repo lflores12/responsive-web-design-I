@@ -1,3 +1,180 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.master-container {
+	width: 876px;
+	margin: 0 auto;
+}
+
+/* Your code starts here! */
+
+header nav {
+	display: inline-block;
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+  }
+  
+  header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	margin-top: 25px;
+  }
+
+ .iod .iod-text{
+	  font-size: 70px;
+	  vertical-align: top;
+	  margin-top: 100px;
+	  margin-left: 100px;
+	  display: inline-block;
+	  text-align: center;
+
+  }
+
+  .iod img {
+	  display: inline-block;
+	  margin-left: 70px;
+	  margin-top: 50px;
+  }
+
+  .iod .iod-text button {
+	  border: 1px solid black;
+	  background: white;
+	  padding: 8px 40px;
+	  vertical-align: top;
+  }
+
+  .main-content {
+	  border-top: 1px solid black;
+	  border-bottom: 1px solid black;
+	  margin-top: 70px;
+	  margin-bottom: 10px;
+	  padding-top: 30px;
+  }
+
+  .main-content .top-content{
+	  display: inline-block;
+
+  }
+
+  .main-content .top-content .content-text{
+	  display: inline-block;
+	  width: 49.5%;
+  }
+
+  .main-content .top-content .content-text:last-child{
+	  margin-right: 0px;
+
+  }
+
+  .main-content .middle-img {
+	 margin-top: 40px;
+ }
+
+ .main-content .bottom-content{
+	 display: inline-block;
+	 margin-top: 30px;
+	 margin-bottom: 35px;
+ }
+ .main-content .bottom-content .content-text{
+	 display: inline-block;
+	 width: 275px;
+	 
+ }
+
+ .main-content .bottom-content .content-text {
+	margin-right: 12px;
+}
+
+ .main-content .bottom-content .content-text:last-child {
+	margin-right: 0
+ }
+
+ .contact {
+	 margin-top: 30px;
+
+ }
+
+ .contact p {
+	 margin: 20px 0;
+ }
+
+ footer {
+	 text-align: center;
+	 margin-bottom:50px;
+	 font-size: 14px;
+ }
+  
